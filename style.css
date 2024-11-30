@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Revolution&display=swap');
+
+body{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(0.25turn , #87f3e5, #f3ca9c);
+}
+
+/*Header*/
+
+.title-header img{
+    width: 100px;
+    height: 100px;
+}
+.title-header h1{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.title-header{
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px 100px;
+    color: rgba(0, 0, 0, 0.733);
+    animation: fall 1.5s ease-in-out forwards;
+}
+
+/*section 1*/
+
+.big-container-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 230px;
+    margin-top: -300px;
+    padding: 50px 50px;
+}
+.big-container-1 p{
+    font-size: 100px;
+}
+.big-container-1 h1{
+    font-size: 100px;
+    margin-top: -50px;
+}
+.big-container-1 button{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 22px;
+    font-family: "Protest Revolution", sans-serif;
+    cursor: pointer;
+}
+.section-1{
+    padding: 150px 0;
+    animation: fall 2s ease-in-out forwards;
+}
+@keyframes fall {
+    0% {
+        opacity: 0; 
+        transform: translateY(-100px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.headset{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -500px;
+    margin-right:350px ;
+    animation: fall 2.5s ease-in-out forwards;
+}
+
+/*Section 2*/
+
+.section-2{
+    padding: 150px 0;
+    animation: fall 2s ease-in-out forwards;
+}
+@keyframes fall {
+    0% {
+        opacity: 0; 
+        transform: translateY(-100px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.title-2 h3{
+    font-size: 65px;
+}
+.title-2 p{
+    font-size: 40px;
+}
+.title-2{
+    width: 500px;
+    padding: 20px 100px;
+    margin: 0 50px;
+    color: rgba(0, 0, 0, 0.733)
+}
+.title-image-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -500px;
+    margin-right: 250px;
+}
+
+/*section 3*/
+
+.section-3{
+    padding: 150px 0;
+}
+.container-3 img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0 45px 0 0;
+    animation: fall 2s ease-in-out forwards;
+}
+@keyframes fall {
+    0% {
+        opacity: 0; 
+        transform: translateY(-20px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.big-container-3{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.container-3{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 0 45px;
+    margin-top: 150px;
+}
+.container-3 h1{
+    font-size: 30px;
+}
+.container-3 p{
+    font-size: 20px;
+}
+.title-3 h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.733)
+}
+.title-3{
+    display: flex;
+    justify-content: center;
+}
+.button-3 button {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 22px;
+    font-family: "Protest Revolution", sans-serif;
+    cursor: pointer;
+}
+.button-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*section 4 */
+
+.section-4{
+    padding: 150px 0;
+}
+.desc-4 h6{
+    font-size: 50px;
+}
+.desc-4 p{
+    font-size: 35px;
+}
+.desc-4{
+    width: 500px;
+}
+.min-desc-4 h1{
+    font-size: 28px;
+}
+.min-desc-4 p{
+    font-size: 20px;
+}
+.desc-image-4 img{
+    width: 750px;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 0 100px 0 0;
+}
+.desc-image-4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -700px;
+    margin-right: 250px;
+}
+.big-desc-4{
+    margin-left: 100px;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+/*Footer */
+footer{
+    padding: 150px 0;
+    color: rgba(0, 0, 0, 0.733);
+    animation: flat 2s ease-in-out forwards;
+}
+@keyframes flat {
+    0%{
+        opacity: 0;
+        transform:translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.big-title-footer-2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    margin-right: 150px;
+}
+.title-footer-2 h1{
+    font-size: 40px;
+}
+.title-footer-2 p{
+    font-size: 30px;
+}
+.title-footer h2{
+    font-size: 50px;
+}
+.title-footer{
+    margin-left: 100px;
+}
+.footer-email{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 380px;
+    margin-top: 50px;
+}
