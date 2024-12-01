@@ -12,7 +12,7 @@ Welcome to **WESTMIRE-MIRED**, a professional website designed to showcase the m
 
 ## 🖼️ Preview
 
-https://ulyk04.github.io/WELLHALL/
+https://ulyk04.github.io/Westmire-Mired/
 
 
 ## 🛠️ Technologies Used
